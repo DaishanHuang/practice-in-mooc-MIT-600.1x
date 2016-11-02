@@ -1,0 +1,8 @@
+count = 0
+n = （0,len(s)）
+v = s[n]
+for n in len(s):
+    if v == 'a' or v == 'e' or v == 'i' or v == 'o' or v == 'u':
+        count += 1
+        n = n + 1
+print ('number of vowels:' , (count))
